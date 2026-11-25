@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://финансовый-учет.рф/</loc></url>
-  <url><loc>https://финансовый-учет.рф/about/</loc></url>
-  <url><loc>https://финансовый-учет.рф/contacts/</loc></url>
-  <url><loc>https://финансовый-учет.рф/bitrix24/</loc></url>
-  <url><loc>https://финансовый-учет.рф/privacy/</loc></url>
-  <url><loc>https://финансовый-учет.рф/sogl/</loc></url>
-  <url><loc>https://финансовый-учет.рф/cookies/</loc></url>
-  <url><loc>https://финансовый-учет.рф/soglreklama/</loc></url>
+  <url><loc>https://xn----7sbgnlizbj3aqkd6c2c.xn--p1ai/</loc><lastmod>2026-11-25</lastmod><priority>1.0</priority></url>
+  <url><loc>https://xn----7sbgnlizbj3aqkd6c2c.xn--p1ai/about/</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://xn----7sbgnlizbj3aqkd6c2c.xn--p1ai/contacts/</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://xn----7sbgnlizbj3aqkd6c2c.xn--p1ai/bitrix24/</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://xn----7sbgnlizbj3aqkd6c2c.xn--p1ai/privacy/</loc><lastmod>2026-11-25</lastmod><priority>0.3</priority></url>
 </urlset>

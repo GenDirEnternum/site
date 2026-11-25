@@ -46,6 +46,15 @@
       if (SKIP.test(name)) continue;
       var v = (el.value || '').trim();
       var rule = el.getAttribute('data-tilda-rule');
+      if (rule === 'phone' && v.replace(/\D/g, '').length < 10) {
+        // маска не успела заполнить скрытое поле — берём видимое
+        var grp = el.closest('.t-input-group, .t-input-block') || el.parentNode;
+        var tel = grp && grp.querySelector('input[type=tel]');
+        if (tel && tel.value.replace(/\D/g, '').length >= 10) {
+          var code = tel.getAttribute('data-phonemask-code') || '';
+          v = (tel.value.indexOf('+') === 0 ? '' : code + ' ') + tel.value.trim();
+        }
+      }
       var bad = req && !v;
       if (!bad && v && rule === 'phone' && v.replace(/\D/g, '').length < 10) bad = true;
       if (!bad && v && rule === 'email' && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)) bad = true;
