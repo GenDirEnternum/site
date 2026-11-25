@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /sps/
+Sitemap: https://финансовый-учет.рф/sitemap.xml
